@@ -11,6 +11,12 @@ public class ArrayDemo2 {
         names[2] = "Rohit";
         names[3] = "Abc";
         names[4] = "Xyz";
+        try{
+        names[5] = "Error";
+        } catch (Exception ex){
+            System.out.println("Error occured");
+        }
+
 
         // Iterate over the array and print each element to the console.
         for(int i=0; i<names.length; i++){
